@@ -1,6 +1,6 @@
-package com.CCPayment.apis;
+package com.ccpayment.api.apis;
 
-import com.CCPayment.beans.*;
+import com.ccpayment.api.beans.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

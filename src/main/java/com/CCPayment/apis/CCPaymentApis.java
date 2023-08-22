@@ -1,8 +1,8 @@
-package com.CCPayment.apis;
+package com.ccpayment.api.apis;
 
 
-import com.CCPayment.beans.*;
-import com.CCPayment.constant.Config;
+import com.ccpayment.api.beans.*;
+import com.ccpayment.api.constant.Config;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
