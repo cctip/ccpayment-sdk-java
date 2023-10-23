@@ -9,7 +9,7 @@ public class PaymentAddressParam {
      * User ID, unique identification
      */
     @JsonProperty("user_id")
-    private String UserId;
+    private String userId;
 
     /**
      * Blockchain network, unique identification
@@ -25,11 +25,11 @@ public class PaymentAddressParam {
     private String notifyUrl;
 
     public String getUserId() {
-        return UserId;
+        return userId;
     }
 
     public void setUserId(String userId) {
-        UserId = userId;
+        this.userId = userId;
     }
 
     public String getChain() {
