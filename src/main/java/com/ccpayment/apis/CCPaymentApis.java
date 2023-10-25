@@ -47,6 +47,8 @@ public final class CCPaymentApis {
         private int code;
         @JsonProperty("msg")
         private String msg;
+        @JsonProperty("reason")
+        private String reason;
         @JsonProperty("data")
         private T data;
     }
