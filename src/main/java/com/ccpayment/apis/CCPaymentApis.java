@@ -3,6 +3,7 @@ package com.ccpayment.apis;
 
 import com.ccpayment.beans.*;
 import com.ccpayment.constant.Config;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -40,6 +41,7 @@ public final class CCPaymentApis {
      *
      * @param <T>
      */
+    @JsonIgnoreProperties(ignoreUnknown = true)
     public static class Response<T> {
         @JsonProperty("code")
         private int code;
