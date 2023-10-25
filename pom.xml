@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ccpayment</groupId>
     <artifactId>ccpayment</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>ccpayment client java sdk</name>
     <description>ccpayment client java sdk, Official site: https://ccpayment.com/</description>
     <url>https://github.com/cctip/ccpayment-sdk-java</url>
