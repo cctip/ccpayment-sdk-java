@@ -29,6 +29,27 @@ public class GetSupportCoinResponse {
         private int status;
         @JsonProperty("precision")
         private int precision;
+        @JsonProperty("network_coin_id")
+        private String networkCoinId;
+
+        public String getNetworkCoinId() {
+            return networkCoinId;
+        }
+
+        public void setNetworkCoinId(String networkCoinId) {
+            this.networkCoinId = networkCoinId;
+        }
+
+        public String getNetworkFeeCrypto() {
+            return networkFeeCrypto;
+        }
+
+        public void setNetworkFeeCrypto(String networkFeeCrypto) {
+            this.networkFeeCrypto = networkFeeCrypto;
+        }
+
+        @JsonProperty("network_fee_crypto")
+        private String networkFeeCrypto;
 
         public Boolean getSupportMemo() {
             return isSupportMemo;
