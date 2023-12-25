@@ -29,6 +29,23 @@ public class WithdrawResponse {
     @JsonProperty("net_receivable")
     private String netReceivable;
 
+   /**
+     * Network_coin_id to be received from withdrawal
+     */
+    @JsonProperty("network_coin_id")
+
+    private String networkCoinId;
+    /**
+     * Network_fee_crypto to be received from withdrawal
+     */
+    @JsonProperty("network_fee_crypto")
+    private String networkFeeCrypto;
+    /**
+     * Network_fee_value to be received from withdrawal
+     */
+    @JsonProperty("network_fee_value")
+    private String networkFeeValue;
+
     public String getRecordId() {
         return recordId;
     }
@@ -59,5 +76,29 @@ public class WithdrawResponse {
 
     public void setNetworkFee(String networkFee) {
         this.networkFee = networkFee;
+    }
+
+
+    public String getNetworkCoinId() {
+        return networkCoinId;
+    }
+
+    public void setNetworkCoinId(String networkCoinId) {
+        this.networkCoinId = networkCoinId;
+    }
+
+    public String getNetworkFeeCrypto() {
+        return networkFeeCrypto;
+    }
+
+    public void setNetworkFeeCrypto(String networkFeeCrypto) {
+        this.networkFeeCrypto = networkFeeCrypto;
+    }
+    public String getNetworkFeeValue() {
+        return networkFeeValue;
+    }
+
+    public void setNetworkFeeValue(String networkFeeValue) {
+        this.networkFeeValue = networkFeeValue;
     }
 }
