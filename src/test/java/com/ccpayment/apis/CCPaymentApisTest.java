@@ -8,7 +8,7 @@ import java.util.Arrays;
 class CCPaymentApisTest {
 
     public CCPaymentApis getInstance(){
-        return CCPaymentApis.getInstance("202306261609051673241961567358982", "caddaa522ad547ebb42fd77e8b759372");
+        return CCPaymentApis.getInstance("OCN20Gjw3l7kM5Fb", "6777ee6097a227d4390b3e9ee2feeb70");
     }
 
     @Test
@@ -78,9 +78,9 @@ class CCPaymentApisTest {
         WithdrawParam param = new WithdrawParam();
         param.setTokenId("2e6cfa7d-f658-455d-89cd-31ebbcfdfa2c");
         param.setAddress("TJXTfwqepEZwTbXgZQoDLgqHt5bfQUN1HX");
-        param.setMerchantOrderId("withdraw0002");
+        param.setMerchantOrderId("withdraw0001");
         param.setMerchantPaysFee(false);
-        param.setValue("2");
+        param.setValue("0.01");
         WithdrawResponse resp = getInstance().withdraw(param);
         System.out.println(resp);
     }
